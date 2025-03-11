@@ -17,7 +17,6 @@ public class RoteiroDeTrilha {
             if (parada.equalsIgnoreCase("sair")) {
                 break;
             }
-            ;
             System.out.println("Digite a posicao em que deseja inserir a parada (1 a " + (paradas.size() + 1) + "): ");
             int posicao;
             try {
